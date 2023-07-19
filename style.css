@@ -1,0 +1,37 @@
+#table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#table thead th,
+#table tbody tr td {
+  padding: 10px;
+  border-top: 1px;
+  border-style: solid;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+#table tbody tr td {
+  padding-left: 20px;
+}
+
+.deleteBtn {
+  background-color: red;
+  border-radius: 6px;
+  border: none;
+  padding: 6px;
+  color: aliceblue;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(119, 16, 16);
+  cursor: pointer;
+}
