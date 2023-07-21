@@ -1,0 +1,21 @@
+{
+  "name": "snc-task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garaev03/snc-task1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garaev03/snc-task1/issues"
+  },
+  "homepage": "https://github.com/garaev03/snc-task1#readme"
+}

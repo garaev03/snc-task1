@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="add_worker">
+      <form id="form">
+        <input type="text" id="firstname" name="name" placeholder="name" />
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="lastname"
+        />
+        <input
+          type="text"
+          id="category"
+          name="category"
+          placeholder="category"
+        />
+        <input type="date" id="date" name="date" placeholder="date" />
+        <button id="add_worker" type="submit">Add</button>
+      </form>
+    </div>
+    <div>
+      <table id="table">
+        <thead>
+          <caption>
+            My Info
+          </caption>
+          <tr>
+            <th>name</th>
+            <th>lastname</th>
+            <th>category</th>
+            <th>date</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="sweetalert2/dist/sweetalert2.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>

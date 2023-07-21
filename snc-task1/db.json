@@ -1,0 +1,32 @@
+{
+  "workers": [
+    {
+      "firstName": "Audrey",
+      "lastName": "Rosa",
+      "category": "Rerum id non vitae ",
+      "date": "1976-10-06",
+      "id": "d46b0154-b435-410d-84f4-d27274fdc185"
+    },
+    {
+      "firstName": "Rafael",
+      "lastName": "Daugherty",
+      "category": "Culpa qui maxime bl",
+      "date": "1990-06-11",
+      "id": "28c3d939-1d87-494d-b295-22b51eadddb4"
+    },
+    {
+      "firstName": "Blaine",
+      "lastName": "Booker",
+      "category": "Quia ea alias iusto ",
+      "date": "1971-06-04",
+      "id": "4d8ba722-cca9-42cc-b2fc-5b05b2d53fad"
+    },
+    {
+      "firstName": "sa",
+      "lastName": "sa",
+      "category": "sa",
+      "date": "2023-07-22",
+      "id": "0802363c-1f5a-4147-bbae-7e022ca22509"
+    }
+  ]
+}
